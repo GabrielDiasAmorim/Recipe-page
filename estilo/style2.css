@@ -69,8 +69,13 @@ h2 {
     list-style-type: circle;
     list-style-position: inside;
 }
-
+.tempo strong {
+    color: var(--stone-600);
+}
 .tempo h3 {
+    color: var(--rose-800);
+}
+.tempo li::marker {
     color: var(--rose-800);
 }
 
@@ -78,7 +83,16 @@ h2 {
 .ingrediente ul {
     padding-left: 14px;
 }
-
+.ingrediente li {
+    color: var(--brown-800);
+}
+/*---instrucao---*/
+.instrucao strong {
+    color: var(--stone-600);
+}
+.instrucao li {
+    color: var(--brown-800);
+}
 /* --- Nutrição / Tabela --- */
 .tabela table {
     width: 100%;
