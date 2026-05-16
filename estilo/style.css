@@ -17,6 +17,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
 }
 .pai {
     background-color: var(--stone-100);
