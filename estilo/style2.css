@@ -83,7 +83,7 @@ h2 {
 .ingrediente ul {
     padding-left: 14px;
 }
-.ingrediente li {
+.ingrediente li::marker {
     color: var(--brown-800);
 }
 /*---instrucao---*/
@@ -93,7 +93,7 @@ h2 {
 .instrucao strong {
     color: var(--stone-600);
 }
-.instrucao li {
+.instrucao li::marker {
     color: var(--brown-800);
 }
 /* --- Nutrição / Tabela --- */
