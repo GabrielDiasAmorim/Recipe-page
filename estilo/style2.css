@@ -22,19 +22,24 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    line-height: 1.4em;
-    margin-bottom: 14px;
+    line-height: 1.5em;
+    font-family: sans-serif;
 }
 
 /* --- Container --- */
 .pai {
+    color: var(--stone-600);
     background-color: var(--stone-100);
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .filho {
     background-color: var(--white);
     border-radius: 10px;
+    width: 90vw;
     max-width: 600px;
     padding: 24px;
 }
@@ -70,7 +75,7 @@ h2 {
     list-style-position: inside;
 }
 .tempo strong {
-    color: var(--stone-600);
+    color: var(--stone-900);
 }
 .tempo h3 {
     color: var(--rose-800);
@@ -91,7 +96,7 @@ h2 {
     padding-left: 14px;
 }
 .instrucao strong {
-    color: var(--stone-600);
+    color: var(--stone-900);
 }
 .instrucao li::marker {
     color: var(--brown-800);
