@@ -64,7 +64,7 @@ h1, h2 {
 
 h1 {
     color: black;
-    font-size: 1.6em;
+    font-size: 1.8em;
     font-weight: bold;
 }
 
@@ -107,7 +107,7 @@ h2 {
 
 /*---instrucao---*/
 .instrucao ol {
-    padding-left: 14px;
+    padding-left: 16px;
 }
 
 .instrucao strong {
