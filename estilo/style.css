@@ -19,16 +19,19 @@
     box-sizing: border-box;
     line-height: 1.4em;
     margin-bottom: 14px;
+    /**/
 }
 .pai {
     background-color: var(--stone-100);
     min-height: 100vh;
+    /**/
 }
 .filho {
     background-color: var(--white);
     border-radius: 10px;
     max-width: 600px;
     padding: 24px;
+    /**/
 }
 .tempo {
     background-color: var(--rose-50);
@@ -38,6 +41,7 @@
     margin-bottom: 12px;
     list-style-type: circle;
     list-style-position: inside;
+    /**/
 }
 .tempo h3 {
     color: var(--rose-800);
@@ -48,7 +52,8 @@ h2 {
 .image img {
     width: 100%;
     display: block;
+    /**/
 }
-.igrediente ul {
+.ingrediente ul {
     padding-left: 14px;
 }
