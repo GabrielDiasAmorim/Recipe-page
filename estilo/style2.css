@@ -63,6 +63,7 @@ h1, h2 {
 }
 
 h1 {
+    color: black;
     font-size: 1.6em;
     font-weight: bold;
 }
@@ -97,6 +98,7 @@ h2 {
 /* --- Ingredientes --- */
 .ingrediente ul {
     padding-left: 14px;
+    list-style-type: square;
 }
 
 .ingrediente li::marker {
@@ -114,6 +116,7 @@ h2 {
 
 .instrucao li::marker {
     color: var(--brown-800);
+    font-size: 1.2em;
 }
 
 /* --- Nutrição / Tabela --- */
