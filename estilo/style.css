@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 /* --- Colors --- */
 :root {
   --white: hsl(0, 0%, 100%);
@@ -12,6 +12,8 @@
   
   --rose-800: hsl(332, 51%, 32%);
   --rose-50: hsl(330, 100%, 98%);
+
+  --font-destaque: "Young Serif", serif;
 }
 * {
     margin: 0px;
@@ -32,6 +34,12 @@
     max-width: 600px;
     padding: 24px;
     /**/
+}
+h1, h2 {
+    font-family: var(--font-destaque);
+}
+h1 {
+    font-size: 18px;
 }
 .tempo {
     background-color: var(--rose-50);
