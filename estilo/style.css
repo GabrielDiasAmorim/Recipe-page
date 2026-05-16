@@ -57,3 +57,8 @@ h2 {
 .ingrediente ul {
     padding-left: 14px;
 }
+.tabela table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+}
