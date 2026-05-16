@@ -62,3 +62,9 @@ h2 {
     max-width: 600px;
     border-collapse: collapse;
 }
+table tr {
+    border-bottom: 1px solid var(--stone-150);
+}
+table tr:last-child {
+    border-bottom: none;
+}
