@@ -33,7 +33,7 @@
 .filho {
     background-color: var(--white);
     border-radius: 10px;
-    width: 100%;
+    max-width: 375px;
     padding: 24px;
 }
 .tempo {
