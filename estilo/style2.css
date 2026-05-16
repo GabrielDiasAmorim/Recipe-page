@@ -52,6 +52,7 @@ h1, h2 {
 
 h1 {
     font-size: 1.6em;
+    font-weight: bold;
 }
 
 h2 {
@@ -99,5 +100,4 @@ table td {
 table td:last-child {
     color: var(--brown-800);
     font-weight: bold;
-    text-align: right;
 }
