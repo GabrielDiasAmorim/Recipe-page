@@ -87,6 +87,9 @@ h2 {
     color: var(--brown-800);
 }
 /*---instrucao---*/
+.instrucao ul {
+    padding-left: 14px;
+}
 .instrucao strong {
     color: var(--stone-600);
 }
