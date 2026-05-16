@@ -140,15 +140,16 @@ table td:last-child {
     color: var(--brown-800);
     font-weight: bold;
 }
-@media screen and (min-width: 768){
+/*---versao desktop---*/
+@media screen and (min-width: 768px){
     .filho {
         width: 600px;
         border-radius: 10px;
         padding: 32px;
     }
     .image img {
+        display: block;
         width: 100%;
-        margin: 0;
         border-radius: 10px;
     }
     h1 {
