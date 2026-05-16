@@ -68,3 +68,9 @@ table tr {
 table tr:last-child {
     border-bottom: none;
 }
+table td {
+    padding: 18px 0px;
+}
+table td:first-child {
+    color: var(--brown-800);
+}
