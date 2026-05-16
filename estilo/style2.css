@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+/* --- Colors --- */
+:root {
+  --white: hsl(0, 0%, 100%);
+  
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  
+  --brown-800: hsl(14, 45%, 36%);
+  
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+
+  --font-destaque: "Young Serif", serif;
+}
+
+/* --- Reset --- */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.4em;
+    margin-bottom: 14px;
+}
+
+/* --- Container --- */
+.pai {
+    background-color: var(--stone-100);
+    min-height: 100vh;
+}
+
+.filho {
+    background-color: var(--white);
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 24px;
+}
+
+/* --- Image --- */
+.image img {
+    width: 100%;
+    display: block;
+}
+
+/* --- Apresentação --- */
+h1, h2 {
+    font-family: var(--font-destaque);
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    color: var(--brown-800);
+}
+
+/* --- Tempo --- */
+.tempo {
+    background-color: var(--rose-50);
+    border-radius: 5px;
+    padding: 14px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.tempo h3 {
+    color: var(--rose-800);
+}
+
+/* --- Ingredientes --- */
+.ingrediente ul {
+    padding-left: 14px;
+}
+
+/* --- Nutrição / Tabela --- */
+.tabela table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 1px solid var(--stone-150);
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+table td {
+    padding: 18px 24px;
+}
+
+table td:last-child {
+    color: var(--brown-800);
+    font-weight: bold;
+    text-align: right;
+}
