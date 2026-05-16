@@ -71,6 +71,7 @@ table tr:last-child {
 table td {
     padding: 18px 0px;
 }
-table td:first-child {
+table td:last-child {
     color: var(--brown-800);
+    font-weight: bold;
 }
